@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<plugin>
+
+    <extension
+          id="CharactersPanel"
+          name="CDAO characters"
+          point="org.protege.editor.core.application.ViewComponent">
+        <label value="CDAO characters"/>
+        <class value="org.nescent.protege.cdao.CharactersPanel"/>
+    </extension>
+    
+    <extension
+          id="StatesPanel"
+          name="CDAO states"
+          point="org.protege.editor.core.application.ViewComponent">
+        <label value="CDAO states"/>
+        <class value="org.nescent.protege.cdao.StatesPanel"/>
+    </extension>
+
+</plugin>
+
